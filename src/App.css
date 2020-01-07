@@ -37,5 +37,25 @@
   }
 }
 .home{
-  background-image: url('./Assets/home_Page.png');
+  position: absolute;
+
+ 
+  background-image: url("./Assets/home_Page2.png");
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  background-clip: content-box;
+  z-index: -5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.logo{
+padding-top: 400px;
+padding-left: 615px;
+transition: all ease .5s;
+position: absolute;
+
+   
 }
